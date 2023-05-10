@@ -1,0 +1,16 @@
+.circularTimer {
+  border-radius: 50%;
+  width: 2vmax;
+  height: 2vmax;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.circularTimerCenter {
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  width: 1.3vmax;
+  height: 1.3vmax;
+}

@@ -1,0 +1,297 @@
+.conversationContentWrapper {
+  height: 94%;
+  overflow-y: hidden;
+}
+.conversationContent {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 92%;
+}
+.conversationContentOnDrag {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 92%;
+  border-width: 0.2vmax;
+  border-color: #bbbbbb;
+  border-style: dashed;
+}
+.conversationModalWrapper {
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+.contentModalWrapper {
+  width: 100%;
+  height: 100%;
+}
+.conversationModalHeaderWrapper {
+  display: flex;
+  margin-bottom: 60px;
+}
+.conversationModalHeaderSpace {
+  width: 70%;
+}
+.conversationModalCloseWrapper {
+  width: fit-content;
+}
+.conversationModalClose {
+  margin-top: 6vmax;
+  width: 1.5vmax;
+  height: 1.5vmax;
+  filter: brightness(0) invert(1);
+  cursor: pointer;
+}
+.conversationModalPictureWrapper {
+    max-height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conversationModalPictureContent {
+  width: 33%;
+  text-align: center;
+}
+.conversationModalLoader > .loading {
+  color: white;
+}
+.conversationModalErrorContent {
+  max-width: 20vmax;
+  height: 7vmax;
+  background-color: white;
+  border-radius: 1vmax;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.conversationModalErrorMessage {
+  max-width: 19vmax;
+  height: fit-content;
+  word-wrap: break-word;
+}
+.conversationModalPicture {
+  width: 76%;
+  height: 76%;
+  margin: 0 auto;
+}
+.conversationOtherUserWrapper {
+  width: fit-content;
+  max-width: 75%;
+  word-wrap: break-word;
+}
+.conversationUserDate {
+  text-align: center;
+  color: rgb(108, 123, 138);
+  margin-top: 0.5vmax;
+}
+.conversationOtherUserUsername, .conversationLoggedUserUsername {
+  color: black;
+  margin: 0.6vmax  0 0.2vmax 0.5vmax
+}
+.conversationOtherUserImg, .conversationLoggedUserImg {
+  border-radius: 10px;
+  margin: 0 10px 0 10px;
+  width: fit-content;
+  cursor: pointer;
+}
+.conversationOtherUserTextWrapper, .conversationLoggedUserTextWrapper {
+  border-radius: 0.4vmax;
+  background-color: rgba(31, 38, 115, 0.07);
+  padding: 0.4vmax;
+  margin: 0 0.8vmax;
+  width: 100%;
+}
+.conversationLoggedUserTextWrapper {
+  margin: 0 0.8vmax 0 0.2vmax;
+}
+.conversationOtherUserText {
+  color: black;
+  margin: 0;
+}
+.conversationInputWrapper {
+  border-radius: 0 0 0.1vmax 0.1vmax;
+  background-color: rgba(115, 62, 31, 0.07);
+  display: flex;
+  position: relative;
+  width: 100%;
+  bottom: 0vmax;
+  height: 8%;
+}
+.conversationInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  margin: auto;
+  width: 80%;
+  border-radius: 0.4vmax;
+  border: solid 0.08vmax black;
+  padding-left: 0.4vmax;
+  margin-left: 0.2vmax;
+  resize: none;
+  outline: none;
+  position: relative;
+  line-height: 1.5vmax;
+}
+.conversationInput::-webkit-scrollbar {
+  width: 0vmax;
+}
+.conversationInput::placeholder {
+  font-size: 0.8vmax;
+}
+.conversationInput:focus-visible {
+  outline: solid 0.03vmax #1982FC;
+}
+.conversationLoggedUserWrapper {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.conversationLoggedUserUsername {
+  margin: 0.6vmax 0.5vmax 0.2vmax 0;
+}
+.conversationLoggedUserTextWrapper {
+  background-color: #1982FC;
+  display: flex;
+  justify-content: flex-end;
+  width: fit-content;
+  max-width: 75%;
+  word-wrap: break-word;
+}
+.conversationLoggedUserText {
+  color: white;
+  max-width: 100%;
+  margin: 0;
+}
+.conversationLoggedUserImgWrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.conversationLoaderWrapper {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.conversationErrorText {
+  color: #1B2E4B;
+}
+.conversationSendButton {
+  border-radius: 2vmax;
+  height: 2vmax;
+  width: 2vmax;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 0.08vmax #1982FC;
+  background-color: #1982FC;
+  margin-right: 0.1vmax;
+  cursor: pointer;
+}
+.conversationSendButton:disabled {
+  opacity: 0.5;
+}
+.conversationSendArrow {
+  color: white;
+  width: 1.5vmax !important;
+  height: 1.5vmax !important;
+}
+.conversationLoggedUserContent, .conversationOtherUserContent {
+  display: flex;
+  align-items: center;
+}
+.conversationLoggedUserContent {
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.conversationDeleteIcon {
+  width: 0.7vmax;
+  height: 0.7vmax;  
+  filter: invert(51%) sepia(6%) saturate(1198%) hue-rotate(169deg) brightness(91%) contrast(85%);
+  cursor: pointer;
+}
+.conversationLoggedSpaceWrapper {
+  width: 20%;
+}
+.conversationWrapper {
+  display: flex;
+}
+.openFileBrowserToSelectPictureFileButton {
+  cursor: pointer;
+  margin-left: 0.5vmax;
+  margin-top: 0.6vmax;
+  width: 2vmax !important;
+  height: 2vmax !important;
+  color: #1F2673;
+}
+.currentImagePreviewWrapper {
+  display: flex;
+  position: absolute;
+  width: 3.2vmax;
+  height: 3.2vmax;
+  margin-left: 0.3vmax;
+  top: 83%;
+}
+.currentImagePreview {
+  border-radius: 0.5vmax;
+  width: 3vmax;
+  height: 3vmax;
+}
+.removeImageButton { 
+  margin-left: 1.9vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1vmax;
+  color: #fff;
+  font-weight: 300;
+  font-family: Arial, sans-serif;
+  border-radius: 1vmax;
+  position: inherit;
+  z-index: 100;
+  width: 1vmax;
+  height: 1vmax;
+  background-color: rgba(71, 71, 71, 0.664);
+}
+.removeImageButton:hover {
+  margin-left: 1.8vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1vmax;
+  color: #fff;
+  font-weight: 300;
+  font-family: Arial, sans-serif;
+  border-radius: 1vmax;
+  position: inherit;
+  z-index: 100;
+  margin-top: -0.1vmax;
+  width: 1.2vmax;
+  height: 1.2vmax;
+  background-color: rgba(71, 71, 71, 0.664);
+}
+.closeImagePreviewIcon {
+  width: 1vmax !important;
+  height: 1vmax !important;
+}
+.imageUploadErrorMessageClassname {
+  color: red;
+  font-family: Arial, sans-serif;
+  display: flex;
+  position: absolute;
+  top: 86%;
+}

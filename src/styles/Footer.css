@@ -1,0 +1,67 @@
+.footerContainer {
+  position: inherit;
+  display: inline-block;
+  width: 100%;
+  background-color: white;
+  height: 3%;
+  margin-top: -0.5vmax;
+}
+
+.footerContentContainer {
+  width: 100%;
+  border-top: solid 1px #dee2e6;
+  margin: 0 auto;
+}
+
+.footerContent {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.footerLeftPartContent {
+  width: 30%;
+}
+
+.footerLeftPartIcon {
+  vertical-align: middle;
+}
+
+.footerCenterPartContent {
+  width: 40%;
+  text-align: center;
+  color: #1B2E4B;
+}
+
+.footerCenterContent {
+  transition: color 0.3s ease;
+}
+
+.footerRightPartContent {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerRightPartIcons {
+  float: right;
+}
+
+.footerIcon {
+  cursor: pointer;
+  margin: 0 20px;
+  transition: color 0.3s ease;
+}
+
+.footerIcon:hover, .footerCenterContent:hover {
+  color: #14D2B8;
+  text-decoration: none;
+}
+
+.footerRightPartGoogle {
+  width: 6vmax;
+  height: 2.5vmax;
+}

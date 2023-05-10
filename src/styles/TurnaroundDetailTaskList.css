@@ -1,0 +1,243 @@
+.turnaroundDetailSpinner {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.turnaroundTaskListHeaderWrapper-large {
+  height: 50%;
+  overflow-y: scroll;
+}
+
+.turnaroundTaskListHeaderWrapper-small {
+  height: 50%;
+  overflow-y: scroll;
+}
+
+.turnaroundTaskListHeaderWrapper-large.splitView {
+  height: 50%;
+  overflow-y: scroll;
+}
+
+.turnaroundTaskListHeader-large, .turnaroundTaskListHeader-small, .turnaroundTaskListHeader-large.splitView {
+  width: 100%;
+  display: flex;
+  height: 3%;
+}
+
+.turnaroundTaskListHeaderLeftPart-large, .turnaroundTaskListHeaderLeftPart-small {
+  width: 30%;
+  display: flex;
+}
+
+.turnaroundTaskListHeaderCentralPart-large, .turnaroundTaskListHeaderCentralPart-small {
+  width: 35%;
+  display: flex;
+  align-items: center;
+}
+
+.turnaroundTaskListHeaderCentral-large,
+.turnaroundTaskListHeaderCentral-small,
+.turnaroundTaskListHeaderCentralRight-large,
+.turnaroundTaskListHeaderCentralRight-small {
+  text-align: center;
+  width: 33%;
+  height: 2.6vmax;
+}
+.turnaroundTaskListHeaderCentral-small,
+.turnaroundTaskListHeaderCentral-large.splitView {
+  text-align: center;
+  width: 47%;
+}
+
+.turnaroundTaskListHeaderCentralRight-large.splitView {
+  display: none;
+}
+
+.turnaroundTaskListHeaderRightPart-large, .turnaroundTaskListHeaderRightPart-small {
+  width: 41%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.turnaroundTaskListHeaderRightContent-large, .turnaroundTaskListHeaderRightContent-small {
+  width: 75%;
+  text-align: center;
+  height: 2.6vmax;
+}
+
+.turnaroundTaskListHeaderRightSpace-large, .turnaroundTaskListHeaderRightSpace-small {
+  width: 25%;
+}
+
+.turnaroundTaskListLine-large,
+.turnaroundTaskListLine-small,
+.turnaroundTaskListLineHeader-large,
+.turnaroundTaskListLineHeader-small,
+.turnaroundTaskListLineHeader-large.splitView {
+  display: block;
+  height: 0.08vmax;
+  border: 0;
+  border-top: 0.08vmax solid #1F2673;
+  opacity: 0.5;
+  margin: 0.2vmax auto;
+  padding: 0;
+  width: 90%;
+}
+
+.turnaroundTaskLineWrapper-large, .turnaroundTaskLineWrapper-small {
+  width: 100%;
+  display: flex;
+  height: fit-content;
+  height: 2.6vmax;
+}
+
+.turnaroundTaskLineLogoContainer-large, .turnaroundTaskLineLogoContainer-small {
+  width: 25%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.turnaroundTaskLineLogo-large, .turnaroundTaskLineLogo-small {
+  width: 40%;
+  filter: invert(15%) sepia(73%) saturate(1678%) hue-rotate(202deg) brightness(43%) contrast(102%);
+}
+
+.turnaroundTaskLineTitleContainer-large, .turnaroundTaskLineTitleContainer-small {
+  width: 70%;
+}
+
+.addInfoCompletionStatusWrapper {
+  width: 10%;
+}
+.turnaroundTaskTitle-large, .turnaroundTaskTitle-small {
+  cursor: pointer;
+}
+
+.turnaroundTaskDifference-large, .turnaroundTaskDifference-small {
+  color: green;
+}
+
+.turnaroundTaskDifferenceRed-large, .turnaroundTaskDifferenceRed-small {
+  color: red;
+}
+.turnaroundTaskDifference-small,
+.turnaroundTaskDifferenceRed-small,
+.turnaroundTaskDifference-large.splitView,
+.turnaroundTaskDifferenceRed-large.splitView {
+  font-size: 0.8vmax;
+}
+.turnaroundTaskDifference-large,
+.turnaroundTaskDifferenceRed-large {
+  font-size: 1vmax;
+}
+.turnaroundTaskListStatus-large {
+  width: 69%;
+  text-align: center;
+  height: 2.6vmax;
+}
+.turnaroundTaskListStatus-small, .turnaroundTaskListStatus-large.splitView {
+  width: 65%;
+  text-align: center;
+  height: 2.6vmax;
+}
+.turnaroundTaskInfosText-large, .turnaroundTaskInfosText-small {
+  margin: 0.8vmax auto 0 auto;
+}
+.taskSummaryTimeDifference {
+  margin: 0;
+}
+.taskStatusColorCircle{
+  position: inherit;
+  background-color: rgb(182, 182, 182);
+  width: 0.5vmax;
+  height: 0.5vmax;
+  border-radius: 5vmax;
+  margin-top: 1vmax;
+  margin-left: -3vmax;
+}
+.taskStatusColorCircleLargeView{
+  position: inherit;
+  background-color: rgb(182, 182, 182);
+  width: 0.5vmax;
+  height: 0.5vmax;
+  border-radius: 5vmax;
+  margin-top: 1.1vmax;
+  margin-left: 0.5vmax;
+}
+.filtersWrapper-small {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 2vmax;
+}
+.filtersWrapper-large {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 2vmax;
+}
+.filterButtonsWrapper-small {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: -0.8vmax;
+  background-color: #E8ECF2;
+  width: 36%;
+  height: 1.8vmax;
+  border-radius: 0.4vmax;
+}
+.filterButtonsWrapper-large {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: -0.8vmax;
+  background-color: #E8ECF2;
+  width: 30%;
+  height: 1.8vmax;
+  border-radius: 0.4vmax;
+}
+.filterButtonsWrapper-large.splitView {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: -0.8vmax;
+  background-color: #E8ECF2;
+  width: 40%;
+  height: 1.8vmax;
+  border-radius: 0.4vmax;
+}
+.filterButton-small {
+  user-select: none;
+  border-radius: 0.3vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 75%;
+}
+.filterButton-large {
+  user-select: none;
+  border-radius: 0.3vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32%;
+  height: 75%;
+}
+.filterButton-large.splitView {
+  user-select: none;
+  border-radius: 0.3vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 31%;
+  height: 75%;
+}
+.filterButtonSelectedColor {
+  background-color: white;
+}

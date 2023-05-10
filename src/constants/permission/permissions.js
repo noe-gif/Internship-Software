@@ -1,0 +1,1 @@
+export const VIEW_REPORT_PERMISSION = 'tarmac.view_turnaroundclosereportformat'; //eslint-disable-line

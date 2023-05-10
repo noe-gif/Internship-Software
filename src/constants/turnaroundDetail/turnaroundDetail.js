@@ -1,0 +1,10 @@
+export const DELAY_CODE_SEPARATION_TEXT = ',';
+export const DELAY_CODE_EMPTY_TEXT = '';
+export const FILTER_BUTTON_DEFAULT = [true, false, false];
+export const ALL_FILTER_BUTTON = 0;
+export const ABOVE_FILTER_BUTTON = 1;
+export const BELOW_FILTER_BUTTON = 2;
+export const WHITE_BACKGROUND = 'filterButtonSelectedColor';
+export const TRANSPARENT_BACKGROUND = '';
+export const SELECTED = true;
+export const FILTER_NAME_BUTTON = ['All', 'Above', 'Below'];

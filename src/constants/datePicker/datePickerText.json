@@ -1,0 +1,14 @@
+{
+  "error_messages": {
+    "end_not_empty": "You can not reset the start timing while the end is not empty",
+    "start_higher_end": "You can not change the datetime because it's higher than the stop timing",
+    "end_lower_start": "You can not change the datetime because it's lower than the start timing",
+    "timing_empty": "You have to enter a valid timing",
+    "date_format_not_valid": "You have to enter a valid date",
+    "new_date_higher_actual_date": "You can only select a datetime earlier than the actual datetime",
+    "new_date_lower_than_min_limit": "You can't put a datetime lower than 01JAN18",
+    "datetime_null": "You have to enter a valid datetime",
+    "no_error_raise": "",
+    "date_updatable_range" : " You can not enter a date that is 12 hours higher or lower than the planned time "
+  }
+}

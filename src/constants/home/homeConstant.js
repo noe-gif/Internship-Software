@@ -1,0 +1,1 @@
+export const NO_AIRPORT_PICKED = '';//eslint-disable-line

@@ -1,0 +1,3 @@
+export const SCROLLER_KEY_TO_EXTRACT = 'id';
+export const TURNAROUNDS_DETAILS_COMPONENT_SIZE_LARGE = 'large';
+export const TURNAROUNDS_DETAILS_COMPONENT_SIZE_SMALL = 'small';

@@ -1,0 +1,1 @@
+export const SCROLL_INTO_VIEW_PARAMETERS = { top: 0, behavior: 'smooth', block: 'nearest', inline: 'nearest' }; // eslint-disable-line

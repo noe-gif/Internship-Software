@@ -1,0 +1,70 @@
+.MuiDateRangePickerDay-day.Mui-selected {
+  background-color: #14D2B8 !important;
+}
+.MuiDateRangePickerDay-rangeIntervalDayHighlight,
+.MuiButtonBase-root-MuiPickersDay-root-MuiDateRangePickerDay-day.Mui-selected {
+  background-color: #14D2B8 !important;
+}
+.MuiTypography-caption,
+.MuiDateRangePickerDay-day,
+.MuiTypography-subtitle1,
+.MuiTypography-subtitle2  {
+  font-size: 1vmax !important;
+}
+.MuiSvgIcon-fontSizeMedium {
+  font-size: 1.5vmax !important;
+}
+.MuiTypography-caption {
+  width: 2.6vmax !important;
+  height: 2.5vmax !important;
+  margin: 0 !important;
+}
+.css-f7iyql {
+  padding: 0.5vmax 0.5vmax 0.2vmax 0.5vmax !important;
+  width: 22vmax;
+}
+.css-1xhj18k, .css-1tape97 {
+  width: 23vmax !important;
+  height: 23.5vmax !important;
+}
+.css-170k9md {
+  min-width: 22vmax !important;
+  min-height: 18vmax !important;
+}
+.css-170k9md>* {
+  width: 23vmax !important;
+  height: 17.5vmax !important;
+}
+.css-mvmu1r {
+  max-height: 2.6vmax !important;
+}
+.MuiDateRangePickerDay-day,
+.MuiDateRangePickerDay-day:not(.Mui-selected),
+.MuiDateRangePickerDay-day.Mui-selected,
+.MuiDateRangePickerDay-rangeIntervalDayHighlight {
+  width: 2.36vmax !important;
+  height: 2.36vmax !important;
+}
+.MuiDateRangePickerDay-day.Mui-selected,
+.MuiDateRangePickerDay-day:not(.Mui-selected) {
+  font-size: 1vmax !important;
+}
+.css-1m3meum-MuiDateRangePickerDay-root {
+  height: 2.36vmax !important;
+  width: 2.36vmax !important;
+}
+.MuiPickersDay-root-MuiDateRangePickerDay-day {
+  height: 2.36vmax !important;
+  width: 2vmax !important;
+}
+.MuiDateRangePickerDay-rangeIntervalDayHighlight {
+  height: 2.6vmax !important;
+}
+.MuiDateRangePickerDay-rangeIntervalPreview {
+  width: 2.36vmax !important;
+}
+.MuiDateRangePickerDay-rangeIntervalDayHighlightEnd,
+.MuiDateRangePickerDay-rangeIntervalDayHighlightStart,
+.MuiDateRangePickerDay-root {
+  width: 2.6vmax !important;
+}

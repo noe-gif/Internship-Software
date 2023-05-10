@@ -1,0 +1,17 @@
+.markerWrapper {
+  border-radius: 1vmax;
+  position: absolute;
+  width: 1.2vmax;
+  height: 1.2vmax;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.markerLabel {
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  font-size: 0.7vmax;
+}

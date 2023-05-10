@@ -1,0 +1,8 @@
+{
+  "alt": {
+    "departure_plane_status": "Departure Plane Status Icon",
+    "arrival_plane_status": "Arrival Plane Status Icon",
+    "landing_plane": "landing plane icon",
+    "departure_plane": "departure plane icon"
+  }
+}

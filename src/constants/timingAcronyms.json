@@ -1,0 +1,18 @@
+{
+  "arrival_text": {
+    "scheduled_time_arrival": "STA",
+    "estimated_time_arrival": "ETA",
+    "rescheduled_time_arrival": "RTA",
+    "actual_time_arrival": "ATA",
+    "any_door_open": "ADO"
+  },
+  "departure_text": {
+    "scheduled_time_departure": "STD",
+    "actual_time_departure": "ATD",
+    "all_doors_closed_target": "ADCT",
+    "estimated_departure": "PTD",
+    "all_doors_closed": "ADC",
+    "rescheduled_time_departure": "RTD"
+  },
+  "empty_data": ""
+}

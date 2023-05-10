@@ -1,0 +1,17 @@
+{
+  "return_value": {
+    "empty_quote": ""
+  },
+  "error_message": {
+    "wrong_length": "The text has to be between 1 and 4 characters",
+    "wrong_format": "The text has to contain only letter and number"
+  },
+  "airport_location": {
+    "placeholder": "Parking Stand",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "reset": "Reset",
+    "arrival_and_departure": "Confirm & Apply for departure parking stand",
+    "departure_and_arrival": "Confirm & Apply for arrival parking stand"
+  }
+}

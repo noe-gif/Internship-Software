@@ -1,0 +1,40 @@
+.turnaroundsWrapper {
+  margin-top: -1vmax;
+  width: 100%;
+  height: 42vmax !important;
+  overflow: hidden;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+.turnaroundsWrapper::-webkit-scrollbar {
+  display: none;
+}
+.homeContentDetailsView.turnaroundsWrapper {
+  width: 33%;
+  height: 90%;
+}
+.homeContentDetailsView {
+  overflow: hidden;
+  overflow-x: scroll;
+  height: 90%;
+  min-height: 95%;
+  scrollbar-width: none;
+}
+.homeContentDetailsView::-webkit-scrollbar {
+  display: none;
+}
+.detailsViewWrapper {
+  display: none;
+}
+.detailsViewVisible {
+  margin-top: -1vmax;
+  display: inline-block;
+  height: 100%;
+  width: 65%;
+}
+.turnaroundsPerDateNoFlight {
+  color: #1B2E4B;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}

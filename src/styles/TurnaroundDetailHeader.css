@@ -1,0 +1,132 @@
+.turnaroundDetailHeaderFlightAirport-large, .turnaroundDetailHeaderFlightAirport-small {
+  display: flex;
+}
+.turnaroundDetailHeaderAirportTextWrapper-large, .turnaroundDetailHeaderAirportTextWrapper-small {
+  width: 20%;
+  text-align: center;
+}
+.turnaroundDetailHeaderFlightDate-large, .turnaroundDetailHeaderFlightDate-small {
+  color: #adadad;
+  margin: 0.1vmax;
+}
+.turnaroundDetailHeaderAirportCentralWrapper-large, .turnaroundDetailHeaderAirportCentralWrapper-small {
+  width: 60%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.turnaroundDetailHeaderFlightTimeline-large, .turnaroundDetailHeaderFlightTimeline-small {
+  display: flex;
+}
+.turnaroundDetailHeaderFlightIcon-large, .turnaroundDetailHeaderFlightIcon-small {
+  width: fit-content;
+  text-align: center;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+.turnaroundDetailHeaderLine-large, .turnaroundDetailHeaderLine-small {
+  display: block;
+  height: 0.08vmax;
+  border: 0;
+  border-top: 0.08vmax solid #1F2673;
+  margin: 0.5vmax 0;
+  padding: 0;
+  width: 100%;
+}
+.turnaroundDetailHeaderIcon-small, .turnaroundDetailHeaderIcon-large {
+  width: 1vmax;
+  margin: 0.5vmax 0;
+}
+.turnaroundDetailHeaderAirportText-large, .turnaroundDetailHeaderAirportHubText-large,
+.turnaroundDetailHeaderAirportText-small, .turnaroundDetailHeaderAirportHubText-small {
+  margin: 0.3vmax;
+}
+.turnaroundDetailHeaderDelayCodeContentWrapper {
+  width: 80%;
+}
+.turnaroundDetailHeaderSpace {
+  width: 9%;
+}
+.turnaroundDetailHeaderDelayCodeContent {
+  display: flex;
+  justify-content: center;
+  margin: -3px;
+  height: 1.3vmax;
+}
+.turnaroundDetailHeaderDelayCodeText-large,
+.turnaroundDetailHeaderDelayCodeText-small,
+.turnaroundDetailHeaderDelayCodeText-large.splitView {
+  text-align: center;
+}
+.turnaroundDetailHeaderDelayCodeText-small, .turnaroundDetailHeaderDelayCodeText-large.splitView {
+  margin: 0;
+}
+.turnaroundDetailHeaderPlaneText {
+  color: #1F2673;
+  text-align: center;
+  font-size: 0.8vw;
+}
+.turnaroundDetailHeaderPlaneContent {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.turnaroundDetailHeaderPlaneSpace {
+  width: 27%;
+}
+.turnaroundDetailHeaderDelayCode,
+.turnaroundDetailHeaderParkingStandWrapper-large,
+.turnaroundDetailHeaderParkingStandWrapper-large.splitView,
+.turnaroundDetailHeaderParkingStandWrapper-small {
+  display: flex;
+  justify-content: center;
+  width: 33%;
+}
+.turnaroundDetailHeaderParkingStandWrapper-large.splitView,
+.turnaroundDetailHeaderParkingStandWrapper-small  {
+  width: 27%;
+}
+.turnaroundDetailHeaderParkingStandContent {
+  background-color: #1F2673;
+  width: 2.5vw;
+  height: 1.3vmax;
+  border-radius: 0.2vw;
+}
+.turnaroundsParkingStandContentContainer {
+  width: 2.5vw;
+  height: 1.3vmax;
+  border-radius: 0.2vw;
+}
+.turnaroundDetailHeaderParkingStandText {
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 0.2vmax;
+}
+.turnaroundDetailHeaderDelayCodeTextWrapper-large,
+.turnaroundDetailHeaderDelayCodeTextWrapper-large.splitView,
+.turnaroundDetailHeaderDelayCodeTextWrapper-small {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 0.12vmax;
+  height: 1.5vmax;
+  margin-top: -0.2vmax;
+}
+.turnaroundDetailHeaderDelayCodeTextWrapper-large.splitView,
+.turnaroundDetailHeaderDelayCodeTextWrapper-small {
+  height: 1.3vmax;
+  align-items: flex-end;
+}
+
+.turnaroundDetailHeaderWrapper {
+  background-color: #E8ECF2;
+  height: 13%;
+}
+@media (max-width: 1200px) {
+ .turnaroundDetailHeaderDelayCodeText-large {
+   font-size: 0.8vmax;
+ }
+}

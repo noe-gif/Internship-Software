@@ -1,0 +1,410 @@
+.taskWrapper {
+  display: contents;
+  width: 100%;
+}
+
+.taskHeaderWrapper {
+  display: flex;
+  height: 6%;
+  padding: 0.6vmax;
+}
+
+.taskHeaderLeftPart {
+  width: 20%;
+}
+
+.taskHeaderText {
+  color: #1F2673;
+  font-size: 0.9vmax;
+  cursor: pointer;
+}
+
+.taskHeaderCentralPart {
+  width: 80%;
+  text-align: right;
+}
+
+.taskHeaderTitle {
+  color: #1F2673;
+}
+
+.taskTitleWrapper {
+  display: flex;
+  height: 8%;
+  padding: 0.5vmax;
+  border-bottom: solid 0.08vmax #6C7B8A;
+}
+
+.taskLogo {
+  width: 2vmax;
+  height: 2vmax;
+  padding: 0.1vmax 0 0.3vmax 0.3vmax;
+  margin: 0.2vmax 0.2vmax 0 0.2vmax;
+  filter: invert(15%) sepia(73%) saturate(1678%) hue-rotate(202deg) brightness(43%) contrast(102%);
+}
+
+.taskTitle {
+  width: 70%;
+  padding-left: 0.4vmax;
+  height: 2.5vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.taskHeaderRightPart {
+  width: 20%;
+  display: flex;
+  height: 2.5vmax;
+  justify-content: center;
+  align-items: center;
+}
+
+.taskProgressWrapper {
+  height: 4%;
+  width: 100%;
+  margin: 1vmax auto 0 auto;
+  display: flex;
+  text-align: center;
+}
+
+.taskProgressBarWrapper {
+  height: 79%;
+  width: 70%;
+  background-color: #e0e0de;
+  border-radius: 1vmax;
+}
+
+.taskProgressBarTimeWrapper {
+  width: 15%;
+  height: 1.5vmax;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.completeProgressBarActualDateTimeBlueText {
+  background-color: #C6DFFB;
+}
+
+.completeProgressBarActualStartDateTimeText,
+.completeProgressBarActualEndDateTimeText,
+.completeProgressBarActualDateTimeBlueText {
+  font-size: 0.8vw;
+  cursor: pointer;
+}
+
+.taskProgressBar {
+  height: 100%;
+  width: 50%;
+  border-radius: inherit;
+  text-align: right;
+}
+
+.taskProgressBarLabel {
+  color: #FFFFFF;
+  padding-right: 1vmax;
+  margin: 0;
+}
+
+.taskEndOnlyTextWrapper {
+  text-align: center;
+}
+
+.taskEndOnlyTextAuto {
+  border-radius: 0.3vmax;
+  margin-left: 13.9vw;
+  width: 10%;
+  background-color: #C6DFFB;
+}
+
+.taskEndOnlyText, .taskEndOnlyTextAuto {
+  cursor: pointer;
+}
+
+.taskEndOnlyLineWrapper {
+  text-align: center;
+  border-bottom: 0.06vmax solid #f1f1f1;
+  width: 50%;
+  margin: 0.6vmax auto;
+  height: 0.7vmax;
+  display: flex;
+}
+
+.taskEndOnlyLineTextWrapperRight, .taskEndOnlyLineTextWrapperLeft {
+  width: 48%;
+  float: left;
+  height: 1.4vmax;
+  display: flex;
+  align-items: center;
+}
+
+.taskEndOnlyLineTextWrapperLeft {
+  justify-content: end;
+}
+
+.taskEndOnlyLineTextWrapperLeft > .taskEndOnlyLineText {
+  float: right;
+  padding-right: 0.4vmax;
+  height: fit-content;
+}
+
+.taskEndOnlyLineTextWrapperRight > .taskEndOnlyLineText {
+  float: left;
+  padding-left: 0.4vmax;
+  font-weight: 600;
+  height: fit-content;
+}
+
+.taskEndOnlyLineCenter {
+  height: 1.4vmax;
+  width: 0.6vmax;
+  max-width: 0.7vmax;
+  border-radius: 0.46vmax;
+  float: left;
+}
+
+.taskPlannedTimingWrapper {
+  display: flex;
+  height: 3%;
+  font-size: 0.8vmax;
+}
+
+.taskPlannedTimingLeft, .taskPlannedTimingRight {
+  width: 20%;
+  height: 1.2vmax;
+  display: flex;
+  align-items: center;
+}
+
+.taskPlannedTimingLeft {
+  justify-content: flex-end;
+}
+
+.taskPlannedTimingRight {
+  justify-content: flex-start;
+}
+
+.taskPlannedTimingSpace {
+  width: 60%;
+}
+
+.taskPlannedTimingText, .taskPlannedTimingStartText, .taskPlannedTimingEndText {
+  color: grey;
+}
+
+.taskStartEndButtonsWrapper {
+  height: 8%;
+  margin: 0.48vmax auto 0 auto;
+  border-bottom: solid 0.08vmax #E8ECF2;
+  width: fit-content;
+}
+
+.taskButtons {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.taskButtonWrapper {
+  width: 50%;
+  margin: 0 1.1vmax;
+}
+
+.taskButton {
+  border-radius: 1vmax;
+  background-color: #1F2673;
+  text-align: center;
+  cursor: pointer;
+  width: fit-content;
+  height: 1.5vmax;
+  padding: 0.1vmax 0.8vmax;
+}
+.taskOptionButton {
+  border-radius: 2vmax;
+  background-color: #1F2673;
+  text-align: center;
+  padding: 0.1vmax 0.8vmax;
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: fit-content;
+  width: fit-content;
+}
+
+.taskButton-disabled {
+  border-radius: 1vmax;
+  background-color: #e0e0de;
+  text-align: center;
+  width: fit-content;
+  height: 1.5vmax;
+  padding: 0.1vmax 0.8vmax;
+}
+.taskTimingButton {
+  height: fit-content;
+  margin: 0.3vmax;
+}
+.taskButtonLabel {
+  color:white;
+  text-transform: uppercase;
+}
+.labeledButtonWithMarker {
+  height: 1vmax;
+  margin: 0.5vmax;
+}
+.addInfoActionCheckboxWrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: baseline;
+  margin-left: 0.3vw;
+}
+
+.addInfoActionCheckboxText {
+  margin: 0 0.3vmax;
+  position: relative;
+  bottom: 0.2vmax;
+}
+.addInfoActionCheckbox {
+  width: 0.8vw;
+}
+.addInfoActionCheckbox:focus {
+  outline: none;
+}
+.addInfoActionInputContainer, .addInfoTextActionInputContainer {
+  width: fit-content;
+  font-size: 0.3vmax;
+}
+.addInfoTextActionInputContainer {
+  margin-bottom: 0.7vmax;
+}
+
+.addInfoActionInput, .addInfoTextActionInput, 
+.addInfoActionInputAutoValue, .addInfoTextActionInputAutoValue {
+  color: #1F2673;
+  padding: 0.4vmax;
+  font-size: 0.8vmax;
+}
+
+.addInfoActionInputAutoValue, .addInfoTextActionInputAutoValue {
+  background-color: #C6DFFB;
+}
+
+.addInfoTextActionInput, .addInfoTextActionInputAutoValue {
+  max-width: 10vmax;
+  margin-top: 0.5vmax;
+}
+
+.addInfoActionInput:focus, .addInfoTextActionInput:focus, 
+.addInfoActionInputAutoValue:focus, .addInfoTextActionInputAutoValue:focus {
+  outline: none;
+}
+
+.addInfoActionInput::-webkit-outer-spin-button,
+.addInfoActionInput::-webkit-inner-spin-button,
+.addInfoActionInputAutoValue::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.addInfoActionInput[type=number], .addInfoActionInputAutoValue[type=number] {
+  -moz-appearance: textfield;
+}
+
+.addInfoActionInput::placeholder,
+.addInfoActionInputAutoValue::placeholder {
+  font-size: 0.8vmax;
+  color: #C4C4C4;
+  font-style: italic;
+}
+
+.addInfoSaveButton {
+  cursor: pointer;
+  width: 1vw;
+  filter: invert(51%) sepia(40%) saturate(1198%) hue-rotate(169deg) brightness(91%) contrast(85%);
+}
+.taskBottomButtonIcon {
+  margin: 0.3vmax 0.3vmax 0 0;
+  width: 1.2vmax;
+  height: 1.2vmax;
+}
+.taskTitleTypo {
+  margin: 0;
+}
+.taskBottomButtonWrapper {
+  margin-top: -0.2vmax;
+}
+.taskLoader {
+  text-align: center;
+}
+@media (min-width: 100vmax) {
+  .addInfosListWrapper{
+    height: 47%;
+  }
+  .taskBottomButtonWrapper {
+    margin-top: 1vmax;
+  }
+}
+@media (min-width: 100vmax) {
+  .addInfosListWrapper{
+    height: 42%;
+  }
+  .taskBottomButtonWrapper {
+    margin-top: 2vmax;
+  }
+}
+@media (max-width: 93vmax) {
+  .addInfosListWrapper{
+    height: 45%;
+  }
+  .taskBottomButtonWrapper {
+    margin-top: 1.3vmax;
+  }
+}
+@media (max-width: 66vmax) {
+  .addInfosListWrapper{
+    height: 44%;
+  }
+  .taskBottomButtonWrapper {
+    margin-top: 0.6vmax;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.taskPopupDescription {
+  border-radius: 0.5vmax;
+  margin-left: 3.15vmax;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 8vmax;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0vmax 0.1vmax 1vmax;
+  opacity: 0;
+  animation: fadeIn 150ms;
+  animation-delay: 150ms;
+  animation-fill-mode: forwards;
+  overflow: none;
+  padding-bottom: -1vmax;
+}
+
+.taskPopupDescriptionContentWrapper {
+  margin-top: -0.3vmax;
+  margin-left: 1vmax;
+  margin-right: 1vmax;
+}
+
+.taskPopupDescriptionTitle {
+  margin-bottom: -0.5vmax;
+  font-weight: 600;
+  color: #1F2673;
+}

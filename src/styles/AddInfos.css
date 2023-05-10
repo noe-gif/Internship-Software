@@ -1,0 +1,41 @@
+.addInfosListWrapper {
+  width: 90%;
+  margin: 10px auto;
+  height: 48%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.addInfoWrapper, .addInfoWrapperAutoValue {
+  padding-left: 0.2vmax;
+  border-bottom: 1px solid #f1f1f1;
+  display: flex;
+  height: fit-content;
+  align-items: center;
+}
+
+.addInfoWrapperAutoValue {
+  background-color: #C6DFFB;
+}
+
+.addInfoTitle {
+  width: 45%;
+  height: fit-content;
+  margin: auto 0;
+  margin-right: 0.7vmax;
+}
+
+.addInfoAction {
+  height: fit-content;
+  margin: auto 0;
+  width: 11vmax;
+}
+
+.addInfoSave {
+  width: 5%;
+  height: fit-content;
+  margin: auto;
+}
+.addInfoWaringButton {
+  filter: invert(27%) sepia(100%) saturate(7436%) hue-rotate(358deg) brightness(92%) contrast(120%);
+}

@@ -1,0 +1,73 @@
+.dashboardHeaderWrapper {
+  background-color: rgba(31, 38, 115, 0.07);
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0vmax 1vmax;
+}
+.dashboardHeaderSpacer {
+  width: 4vmax;
+}
+.dashboardFiltersWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 4vh;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.arrivalDepartureFilterContainer {
+  margin-left: 1vmax;
+}
+.airportFormWrapper {
+  height: 1.7vmax;
+}
+
+.arrivalDepartureFilterBubble {
+  background-color: #14D2B8;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 7vmax;
+  height: 2vmax;
+  border-radius: 2vw;
+  cursor: pointer;
+  border: 1px solid #0fb39d;
+  text-align: center;
+  -webkit-transition: background-color 0.2s linear;
+  -moz-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
+}
+
+.arrivalDepartureFilterContainer > .isOff {
+  background-color: #ffffff;
+  border: 1px solid #1B2E4B;
+  opacity: 0.4;
+}
+
+.arrivalDepartureFilterBubble > .isOff {
+  color: #1B2E4B;
+  font-weight: 300;
+}
+
+.arrivalDepartureFilterText {
+  color: #ffffff;
+}
+.airportAutoComplete {
+  width: 8vw;
+  margin: 0 0.7vmax;
+}
+.airportAutoCompleteOption {
+  font-size: 1vmax;
+}
+.dashboardTurnaroundRefreshTimerWrapper {
+  display: flex;
+  width: 2.9vmax;
+  justify-content: flex-end;
+  flex: 1;
+}

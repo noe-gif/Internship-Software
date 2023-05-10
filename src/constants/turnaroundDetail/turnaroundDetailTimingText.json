@@ -1,0 +1,12 @@
+{
+  "plane_information": {
+    "aircraft": "Aircraft",
+    "tail_number": "Tail n°",
+    "mtt": "MTT"
+  },
+  "date_picker": {
+    "cancel": "Cancel",
+    "reset": "Reset",
+    "confirm": "Confirm"
+  }
+}

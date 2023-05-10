@@ -1,0 +1,214 @@
+.reportHeaderContainer {
+  display: flex;
+  background-color: #E8ECF2;
+  height: 6%;
+  border-bottom: 0.06vmax solid #1F2673;
+}
+
+.reportHeaderSaveErrorContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(255, 0, 0, 0.1);
+}
+
+.reportHeaderTitleContainer {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reportHeaderTitle {
+  text-align: center;
+  width: 80%;
+}
+
+.reportHeaderSaveContainer {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reportHeaderSave {
+  padding: 0.13vmax;
+  cursor: pointer;
+}
+
+.reportHeaderSendContainer {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reportHeaderSendDisableContainer {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.2;
+}
+
+.reportHeaderSend {
+  color: rgb(20, 210, 184);
+  border: 0.06vmax solid rgb(20, 210, 184);
+  padding: 0.06vmax 0.4vmax;
+  border-radius: 0.8vmax;
+  cursor: pointer;
+}
+
+.reportHeaderNotSend {
+  border: 0.05vmax solid red;
+  padding: 0.05vmax 0.4vmax;
+  border-radius: 0.8vmax;
+  cursor: pointer;
+}
+
+.reportContentWrapper {
+  height: 87.5%;
+  overflow-y: scroll;
+}
+
+.reportPartHeader {
+  height: 7%;
+  background-color: #E8ECF2;
+  display: flex;
+}
+
+.reportPartHeaderText {
+  height: fit-content;
+  margin: auto 1.3vmax;
+}
+
+.reportDelayLine {
+  display: flex;
+  height: 10%;
+  border-bottom: 0.06vmax solid #E8ECF2;
+}
+
+.reportDelayLeftPart, .reportDelayCentralPart, .reportDelayRightPart {
+  width: 33%;
+  height: fit-content;
+  margin: auto 0;
+}
+
+.reportDelayLeftText {
+  text-align: center;
+}
+
+.reportDelayInput {
+  width: 90%;
+  background-color: rgba(31, 38, 115, 0.07);
+  height: 2vmax;
+  border-radius: 1vmax;
+  outline: none;
+  padding-left: 0.8vmax;
+}
+.reportDelayInput::placeholder {
+  font-size: 0.8vmax;
+}
+
+.reportDelaysList {
+  display: contents;
+}
+
+.reportRemarksWrapper {
+  margin: 0.6vmax auto;
+  width: 95%;
+}
+
+.reportRemarksInput {
+  width: 100%;
+  outline: none;
+  background-color: rgba(31, 38, 115, 0.07);
+  border: none;
+  resize: none;
+  padding: 0.2vmax;
+}
+
+.reportLoading {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.reportAddInfo, .reportTurnaroundInfoLine, .reportTaskLine {
+  display: flex;
+  border-bottom: 0.06vmax solid #E8ECF2;
+}
+.reportAddInfoCheckbox {
+  display: flex;
+  align-items: center;
+}
+.reportTurnaroundInfoLine, .reportTaskLine {
+  height: 2vmax;
+}
+.reportAddInfoLeftPart, .reportTurnaroundInfoLeftPart, .reportTaskLineLeftPart {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reportAddInfoLeftPart {
+  padding-left: 0.2vmax;
+}
+.reportAddInfoTitle, .reportTurnaroundInfoTitle, .reportTaskLineTitle {
+  text-align: center;
+}
+
+.reportAddInfoCompulsoryBulletWrapper {
+  width: 10%;
+  height: fit-content;
+  margin: auto;
+}
+
+.reportAddInfoCompulsoryBullet {
+  border-radius: 0.46vmax;
+  background-color: #1F2673;
+  width: 0.6vmax;
+  height: 0.6vmax;
+  margin: auto;
+}
+
+.reportAddInfoRightPart, .reportTurnaroundInfoRightPart, .reportTaskLineRightPart {
+  width: 70%;
+  display: flex;
+}
+
+.reportTurnaroundInfoRightPart {
+  justify-content: center;
+}
+
+.reportAddInfoText, .reportAddInfoNumber {
+  height: fit-content;
+  margin: auto 0.5vmax;
+  width: 100%;
+}
+
+.reportAddInfoInput {
+  width: 90%;
+  background-color: rgba(31, 38, 115, 0.07);
+  height: 2vmax;
+  border-radius: 1vmax;
+  outline: none;
+  padding-left: 0.7vmax;
+}
+
+.reportAddInfoInput::placeholder {
+  font-size: 0.8vmax;
+}
+
+.reportTurnaroundInfoValue {
+  text-align: center;
+}
+
+.reportTaskLineTimingWrapper {
+  width: 25%;
+  text-align: center;
+}
+
+.reportTaskLineTiming {
+  color: #1F2673;
+}

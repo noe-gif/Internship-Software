@@ -1,0 +1,28 @@
+{
+  "add_infos": {
+    "placeholder_number": "Number",
+    "placeholder_text": "Text",
+    "title": "Additional informations"
+  },
+  "delay": {
+    "line_title": "Delay code n°",
+    "placeholder_code": "DL",
+    "placeholder_duration": "Duration (min)",
+    "title": "Delays"
+  },
+  "header": {
+    "title": "Turnaround Report",
+    "save": "Save",
+    "send": "Send",
+    "error": "Error while saving report"
+  },
+  "remarks": {
+    "title": "Remarks"
+  },
+  "tasks": {
+    "title": "Tasks"
+  },
+  "turnaround": {
+    "title": "Turnaround"
+  }
+}

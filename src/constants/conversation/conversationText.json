@@ -1,0 +1,13 @@
+{
+  "conversation": {
+    "inputCommentPlaceholder": "Write a comment",
+    "inputMessagePlaceholder": "Write a message",
+    "conversationTypeMessage": "message",
+    "conversationTypeComment": "comment"
+  },
+  "delete_conversation_modal": {
+    "confirm_button": "Confirm",
+    "cancel_button": "Cancel",
+    "informative_message": "Are you sure you want to delete this"
+  }
+}

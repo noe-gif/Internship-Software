@@ -1,0 +1,98 @@
+.turnaroundsDetailsWrapper-large {
+  display: flex;
+  width: 100%;
+  height: 94%;
+  padding-top: 0.5vmax;
+}
+
+.turnaroundsDetailsWrapper-small {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 94%;
+  width: 100%;
+  padding-top: 0.5vmax;
+  overflow-x: scroll;
+}
+
+.turnaroundDetailWrapper {
+  display: contents;
+}
+
+.turnaroundDetailView-large {
+  width: 90%;
+  min-height: fit-content;
+  position: relative;
+  height: 99%;
+  display: inline-block;
+  margin: 0 auto;
+  border-radius: 0.26vmax;
+  border-top: 0.06vmax solid rgb(0 0 0 / 5%);
+  box-shadow: 0vmax 0.13vmax 0.06vmax -0.06vmax rgb(0 0 0 / 20%), 0vmax 0.06vmax 0.06vmax 0vmax rgb(0 0 0 / 14%), 0vmax 0.06vmax 0.2vmax 0vmax rgb(0 0 0 / 12%);
+}
+
+.turnaroundDetailView-small {
+  margin: 0 0.6vmax;
+  position: relative;
+  min-width: 47%;
+  width: 50%;
+  height: 99%;
+  border-radius: 0.26vmax;
+  border-top: 0.06vmax solid rgb(0 0 0 / 5%);
+  box-shadow: 0vmax 0.13vmax 0.06vmax -0.06vmax rgb(0 0 0 / 20%), 0vmax 0.06vmax 0.06vmax 0vmax rgb(0 0 0 / 14%), 0vmax 0.06vmax 0.2vmax 0vmax rgb(0 0 0 / 12%);
+}
+
+.turnaroundDetailText {
+  color: blue;
+  margin: 0.6vmax;
+  cursor: pointer;
+}
+
+.turnaroundInfosVisible {
+  display: contents;
+}
+
+.turnaroundInfosNotVisible {
+  display: none;
+}
+
+.turnaroundDetailTask-large {
+  display: none;
+}
+
+.turnaroundDetailTask-small {
+  display: contents;
+}
+
+.turnaroundDetailViewSplit {
+  width: 50%;
+  margin: 0 0.6vmax;
+  position: relative;
+  height: 97%;
+  border-radius: 0.25vmax;
+  border-top: 0.08vmax solid rgb(0 0 0 / 5%);
+  box-shadow: 0vmax 0.13vmax 0.06vmax -0.06vmax rgb(0 0 0 / 20%), 0vmax 0.06vmax 0.06vmax 0vmax rgb(0 0 0 / 14%), 0vmax 0.06vmax 0.2vmax 0vmax rgb(0 0 0 / 12%);
+}
+
+.turnaroundTaskView-large {
+  overflow: auto;
+  display: auto;
+  width: 50%;
+  max-width: 31.3vmax;
+  margin: 0 0.6vmax;
+  height: 97%;
+  border-radius: 0.25vmax;
+  border-top: 0.08vmax solid rgb(0 0 0 / 5%);
+  box-shadow: 0vmax 0.13vmax 0.06vmax -0.06vmax rgb(0 0 0 / 20%), 0vmax 0.06vmax 0.06vmax 0vmax rgb(0 0 0 / 14%), 0vmax 0.06vmax 0.2vmax 0vmax rgb(0 0 0 / 12%);
+}
+
+.turnaroundTaskView-small {
+  margin: 0 0.6vmax;
+  position: relative;
+  min-width: 47%;
+  width: 50%;
+  height: 99%;
+  border-radius: 0.25vmax;
+  border-top: 0.08vmax solid rgb(0 0 0 / 5%);
+  box-shadow: 0vmax 0.13vmax 0.06vmax -0.06vmax rgb(0 0 0 / 20%), 0vmax 0.06vmax 0.06vmax 0vmax rgb(0 0 0 / 14%), 0vmax 0.06vmax 0.2vmax 0vmax rgb(0 0 0 / 12%);
+}

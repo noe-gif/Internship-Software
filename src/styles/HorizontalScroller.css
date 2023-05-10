@@ -1,0 +1,33 @@
+.HorizontalScrollerWrapper {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  position: inherit;
+  margin-top: 1vmax !important;
+}
+.horizontalScrollButtonLeft,
+.horizontalScrollButtonRight {
+  background-color: #f1f1f1;
+  border-radius: 1vw;
+  width: 1.8vmax;
+  height: 1.8vmax;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.horizontalScrollButtonLeft[aria-disabled="true"],
+.horizontalScrollButtonRight[aria-disabled="true"] {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.horizontalScrollBackButtonImage, .horizontalScrollNextButtonImage {
+  width: 0.6vmax;
+  height: 0.8vmax;
+  filter: invert(74%) sepia(10%) saturate(3245%) hue-rotate(177deg) brightness(90%) contrast(109%);
+}
+.horizontalScrollNextButtonImage {
+  transform: scaleX(-1);
+}

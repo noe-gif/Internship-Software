@@ -1,0 +1,4 @@
+export const LATE_FLIGHT_ICON_COLOR = '_RED';
+export const ON_TIME_FLIGHT_ICON_COLOR = '_GREEN';
+export const DEFAULT_FLIGHT_ICON_COLOR = '';
+export const CANCELED_FLIGHT_ICON_COLOR = '_BLACK';

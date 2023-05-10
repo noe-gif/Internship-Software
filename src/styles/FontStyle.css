@@ -1,0 +1,33 @@
+.fontSizeDefault {
+  font-size: 0.8vmax;
+}
+.fontSizeDefaultBold {
+  font-size: 0.8vmax;
+  font-weight: bold;
+}
+.fontSizeBig {
+  font-size: 1vmax;
+}
+.fontSizeBigBold {
+  font-size: 1vmax;
+  font-weight: 600;
+}
+.fontSizeLarge {
+  font-size: 1.4vmax;
+}
+.fontSizeSmall {
+  font-size: 0.7vmax;
+}
+.fontSizeSmallBold {
+  font-size: 0.7vmax;
+  font-weight: bold;
+}
+.fontColorDefault {
+  color: #1F2673;
+}
+.fontColorOnTime {
+  color: green;
+}
+.fontColorLate {
+  color: red;
+}

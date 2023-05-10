@@ -1,0 +1,15 @@
+{
+  "infos": {
+    "start": "Start",
+    "finish": "Finish",
+    "comments": "Comments",
+    "messages": "Messages"
+  },
+  "add_info": {
+    "date_placeholder": "Selected Date",
+    "text_placeholder": "Text",
+    "number_placeholder": "Number",
+    "checkbox_first_label": "Yes",
+    "checkbox_second_label": "No"
+  }
+}

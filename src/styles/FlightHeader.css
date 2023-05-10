@@ -1,0 +1,27 @@
+.flightHeaderContentWrapper {
+  width: 70%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.flightHeaderContentFlight {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+}
+.flightHeaderIcon-large {
+  width: 1vmax;
+}
+.flightHeaderIcon-small {
+  width: 1vmax;
+}
+.flightHeaderTitle-large, .flightHeaderTitle-small, .flightHeaderTitle-large.splitView {
+  color: white;
+  width: fit-content;
+  text-align: center;
+  margin: 0 0.9vmax 0 0.9vmax;
+}
+.flightHeaderLogo-large, .flightHeaderLogo-small {
+  width: fit-content;
+}

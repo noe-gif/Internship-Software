@@ -1,0 +1,224 @@
+html body {
+  background-color: #FFFFFF;
+}
+
+p {
+  font-family: 'Inter', 'Segoe UI', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  color: #1B2E4B;
+}
+
+img {
+  color: #000000;
+}
+
+input, textarea { 
+  border:none;
+  font-family: 'Inter', 'Segoe UI', 'Inter', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.containerLoading{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height:100%;
+  position: absolute;
+  width: 100%;
+}
+
+.loading{
+  width: 60px;
+  font-size: 22px;
+}
+
+.home{
+  background-color: #FFFFFF;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+}
+
+/*Login*/
+.loginContainer {
+  background-color: #1B2E4B; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.loginLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6vh;
+  text-align: center;
+  font-size: 1.7vmax;
+}
+
+.loginTitle {
+  color: white;
+  margin: 1.3vmax;
+}
+
+.loginImg {
+  width: 10vmax;
+}
+
+.loginTextError {
+  color: rgb(245, 78, 94);
+}
+
+.loginForm {
+  margin: 1.1vmax;
+}
+
+.inputsForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputUsername, .inputPassword{
+  width: 20.5vmax;
+  height: 1vmax;
+  margin-top: 0.8vmax;
+  margin-bottom: 0.5vmax;
+  border-radius: 0.3vmax;
+  padding: 0.8vmax;
+}
+
+.inputPassword{
+  margin-top: 0vmax;
+  width: 18vmax;
+}
+
+.inputPassword:focus{
+  outline: none;
+}
+
+.inputPasswordWrapper{
+  margin-bottom: 0.6vmax;
+  margin-top: 0.7vmax;
+  height: 2.6vmax;
+  border-radius: 0.3vmax;
+  background-color: white;
+}
+
+.inputSubmit{
+  width: 22vmax;
+  height: 2.5vmax;
+  margin-top: 1vmax;
+  margin-bottom: 0.5vmax;
+  color: #FFFFFF;
+  background-color: #14D2B8;
+  border-radius: 0.3vmax;
+}
+
+.revealPasswordBtn {
+  position: fixed;
+  cursor: 'pointer';
+  margin-top: 0.6vmax;
+}
+
+.hideEyeButton {
+  display: none;
+  visibility: hidden;
+}
+
+.dateTitle{
+  color: #1F2673;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  font-size: 1vmax;
+}
+
+.colTurnaroundsElement{
+  margin-top: -1vmax;
+  height: 90%;
+  justify-content: center;
+}
+.turnaroundCategoriesBox {
+  position: inherit;
+  overflow-y: scroll;
+  max-height: 37vmax !important;
+}
+.turnaroundCategoriesBox::-webkit-scrollbar {
+  width: 0.3vmax;
+}
+.turnaroundCategoriesBox::-webkit-scrollbar-track {
+  background: rgb(221, 221, 221);
+}
+.turnaroundCategoriesBox::-webkit-scrollbar-thumb {
+  background-color:#acacac;
+  border-radius: 1.2vmax;
+}
+.homeCenteredElements{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4vh;
+  position: fixed;
+  width: 100%;
+  height: 0;
+}
+
+.centeredTurnaroundsContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.colTurnaroundsContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 2vmax;
+  height: 81%;
+  overflow: scroll;
+  background-color: #ffffff;
+  scrollbar-width: none;
+}
+
+.colTurnaroundsContainer::-webkit-scrollbar {
+  display: none;
+}
+
+hr.horizontalBar {
+  border-top: 0.01vmax rgba(196, 196, 196, 0.75);
+  margin: 0;
+  width: 100%;
+  opacity: 0;
+}
+
+.datePickerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2vh;
+  width: auto;
+}
+
+.item {
+  border-right: solid;
+  border-right-color: rgba(220,220,220, 1);
+  border-width: thin
+}
+
+.item:last-child {
+  border: none;
+}
+
+.grid{
+  min-height: 95%;
+  height: max-content
+}

@@ -1,0 +1,58 @@
+.dashboardTimeZoneFilterWrapper {
+  display: flex;
+  align-items: center;
+  gap: 1vmax;
+  height: 50%;
+  flex: 1;
+}
+
+.dashboardTimeZoneFilterContainerSvg {
+  height: 75%;
+  fill: #2ccbb1;
+}
+
+.dashboardTimeZoneFilterButtonContainer {
+  background-color: #fff;
+  border: 0.05vmax solid #dadada;
+  border-radius: 2vmax;
+  gap: 0.5vmax;
+  display: flex;
+  align-items: center;
+  padding: 0.3vmax;
+  height: 100%;
+  width: 15vmax;
+}
+
+.dashboardTimeZoneFilterButton {
+  background-color: transparent;
+  border: none;
+  font-size: 1vmax;
+  color: #2ccbb1;
+  border-radius: 2vmax;
+  cursor: pointer;
+  height: 100%;
+  width: 7vmax;
+  transition: background-color 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+}
+
+.dashboardTimeZoneFilterButton__active {
+  color: #fff;
+  background-color: #2ccbb1;
+}
+
+.dashboardTimeZoneLineBreak {
+  height: 100%;
+  border: 0.05vmax solid #dadada;
+}
+
+.dashboardTimeZoneFilterUtcText {
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-size: 1vmax;
+  color: #969fa9;
+}
+
+.dashboardTimeZoneFilterEarthIcon{
+  height: 100%;
+}

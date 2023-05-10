@@ -1,0 +1,13 @@
+{
+  "task_list": {
+    "start": "Start",
+    "end": "End",
+    "process_time": "ProcessTime",
+    "status": "Status"
+  },
+  "componentSize" : {
+    "large": "large",
+    "small": "small",
+    "splitView": "large splitView"
+  }
+}

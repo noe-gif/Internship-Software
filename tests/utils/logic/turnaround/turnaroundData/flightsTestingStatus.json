@@ -1,0 +1,297 @@
+[
+  {
+    "status": {
+      "category": "in_progress"
+    },
+    "all_doors_closed_target_datetime": "2021-06-14T12:00:00Z",
+    "arrival_flight": {
+      "actual_gate_arrival_datetime": "2021-06-14T11:55:00Z",
+      "actual_gate_departure_datetime": null,
+      "actual_runway_arrival_datetime": null,
+      "actual_runway_departure_datetime": null,
+      "aircraft": {
+        "tail_number": "FHZEN",
+        "name": "A330-300",
+        "manufacturer_name": "Airbus"
+      },
+      "arrival_airport": {
+        "iata_code": "FDF",
+        "icao_code": "TFFF",
+        "name": "Martinique Aime Cesaire International Airport"
+      },
+      "arrival_gate": null,
+      "arrival_terminal": null,
+      "carrier_code": "SS",
+      "departure_airport": {
+        "iata_code": "ORY",
+        "icao_code": "LFPO",
+        "name": "Paris Orly Airport"
+      },
+      "departure_gate": null,
+      "departure_terminal": null,
+      "estimated_gate_arrival_datetime": null,
+      "estimated_gate_departure_datetime": null,
+      "estimated_runway_arrival_datetime": null,
+      "estimated_runway_departure_datetime": null,
+      "flight_number": "924",
+      "id": 40456,
+      "rescheduled_time_arrival_datetime": null,
+      "rescheduled_time_departure_datetime": null,
+      "sta": "2021-06-14T20:50:00Z",
+      "status": "SKD",
+      "std": "2021-06-14T12:00:00Z"
+    }
+  },
+  {
+    "status": {
+      "category": "completed"
+    },
+    "all_doors_closed_target_datetime": "2021-06-14T12:00:00Z",
+    "departure_flight": {
+      "actual_gate_arrival_datetime": null,
+      "actual_gate_departure_datetime": "2021-06-13T11:55:00Z",
+      "actual_runway_arrival_datetime": null,
+      "actual_runway_departure_datetime": null,
+      "aircraft": {
+        "tail_number": "FHZEN",
+        "name": "A330-300",
+        "manufacturer_name": "Airbus"
+      },
+      "arrival_airport": {
+        "iata_code": "FDF",
+        "icao_code": "TFFF",
+        "name": "Martinique Aime Cesaire International Airport"
+      },
+      "arrival_gate": null,
+      "arrival_terminal": null,
+      "carrier_code": "SS",
+      "departure_airport": {
+        "iata_code": "ORY",
+        "icao_code": "LFPO",
+        "name": "Paris Orly Airport"
+      },
+      "departure_gate": null,
+      "departure_terminal": null,
+      "estimated_gate_arrival_datetime": null,
+      "estimated_gate_departure_datetime": null,
+      "estimated_runway_arrival_datetime": null,
+      "estimated_runway_departure_datetime": null,
+      "flight_number": "924",
+      "id": 40456,
+      "rescheduled_time_arrival_datetime": null,
+      "rescheduled_time_departure_datetime": null,
+      "sta": "2021-06-14T20:50:00Z",
+      "status": "SKD",
+      "std": "2021-06-14T12:00:00Z"
+    }
+  },
+  {
+    "status": {
+      "category": "incoming"
+    },
+    "all_doors_closed_target_datetime": "2021-06-14T12:00:00Z",
+    "departure_flight": {
+      "actual_gate_arrival_datetime": null,
+      "actual_gate_departure_datetime": "2021-06-15T10:59:00Z",
+      "actual_runway_arrival_datetime": null,
+      "actual_runway_departure_datetime": null,
+      "aircraft": {
+        "tail_number": "FHZEN",
+        "name": "A330-300",
+        "manufacturer_name": "Airbus"
+      },
+      "arrival_airport": {
+        "iata_code": "FDF",
+        "icao_code": "TFFF",
+        "name": "Martinique Aime Cesaire International Airport"
+      },
+      "arrival_gate": null,
+      "arrival_terminal": null,
+      "carrier_code": "SS",
+      "departure_airport": {
+        "iata_code": "ORY",
+        "icao_code": "LFPO",
+        "name": "Paris Orly Airport"
+      },
+      "departure_gate": null,
+      "departure_terminal": null,
+      "estimated_gate_arrival_datetime": null,
+      "estimated_gate_departure_datetime": null,
+      "estimated_runway_arrival_datetime": null,
+      "estimated_runway_departure_datetime": null,
+      "flight_number": "924",
+      "id": 40456,
+      "rescheduled_time_arrival_datetime": null,
+      "rescheduled_time_departure_datetime": null,
+      "sta": "2021-06-14T20:50:00Z",
+      "status": "SKD",
+      "std": "2021-06-14T12:00:00Z"
+    },
+    "arrival_flight": {
+      "actual_gate_arrival_datetime": "2021-06-13T18:20:00Z",
+      "actual_gate_departure_datetime": null,
+      "actual_runway_arrival_datetime": null,
+      "actual_runway_departure_datetime": null,
+      "aircraft": {
+        "tail_number": "FHZEN",
+        "name": "A330-300",
+        "manufacturer_name": "Airbus"
+      },
+      "arrival_airport": {
+        "iata_code": "FDF",
+        "icao_code": "TFFF",
+        "name": "Martinique Aime Cesaire International Airport"
+      },
+      "arrival_gate": null,
+      "arrival_terminal": null,
+      "carrier_code": "SS",
+      "departure_airport": {
+        "iata_code": "ORY",
+        "icao_code": "LFPO",
+        "name": "Paris Orly Airport"
+      },
+      "departure_gate": null,
+      "departure_terminal": null,
+      "estimated_gate_arrival_datetime": null,
+      "estimated_gate_departure_datetime": null,
+      "estimated_runway_arrival_datetime": null,
+      "estimated_runway_departure_datetime": null,
+      "flight_number": "924",
+      "id": 40456,
+      "rescheduled_time_arrival_datetime": null,
+      "rescheduled_time_departure_datetime": null,
+      "sta": "2021-06-14T20:50:00Z",
+      "status": "SKD",
+      "std": "2021-06-14T12:00:00Z"
+    }
+  },
+  {
+    "status": {
+      "category": "in_progress"
+    },
+    "all_doors_closed_target_datetime": "2021-06-15T12:00:00Z",
+    "departure_flight": {
+      "actual_gate_arrival_datetime": null,
+      "actual_gate_departure_datetime": "2021-06-15T11:55:00Z",
+      "actual_runway_arrival_datetime": null,
+      "actual_runway_departure_datetime": null,
+      "aircraft": {
+        "tail_number": "FHZEN",
+        "name": "A330-300",
+        "manufacturer_name": "Airbus"
+      },
+      "arrival_airport": {
+        "iata_code": "FDF",
+        "icao_code": "TFFF",
+        "name": "Martinique Aime Cesaire International Airport"
+      },
+      "arrival_gate": null,
+      "arrival_terminal": null,
+      "carrier_code": "SS",
+      "departure_airport": {
+        "iata_code": "ORY",
+        "icao_code": "LFPO",
+        "name": "Paris Orly Airport"
+      },
+      "departure_gate": null,
+      "departure_terminal": null,
+      "estimated_gate_arrival_datetime": null,
+      "estimated_gate_departure_datetime": null,
+      "estimated_runway_arrival_datetime": null,
+      "estimated_runway_departure_datetime": null,
+      "flight_number": "924",
+      "id": 40456,
+      "rescheduled_time_arrival_datetime": null,
+      "rescheduled_time_departure_datetime": null,
+      "sta": "2021-06-14T20:50:00Z",
+      "status": "SKD",
+      "std": "2021-06-14T12:00:00Z"
+    }
+  },
+  {
+    "status": {
+      "category": "completed"
+    },
+    "all_doors_closed_target_datetime": "2021-06-14T12:00:00Z",
+    "departure_flight": {
+      "actual_gate_arrival_datetime": null,
+      "actual_gate_departure_datetime": "2021-06-14T11:55:00Z",
+      "actual_runway_arrival_datetime": null,
+      "actual_runway_departure_datetime": null,
+      "aircraft": {
+        "tail_number": "FHZEN",
+        "name": "A330-300",
+        "manufacturer_name": "Airbus"
+      },
+      "arrival_airport": {
+        "iata_code": "FDF",
+        "icao_code": "TFFF",
+        "name": "Martinique Aime Cesaire International Airport"
+      },
+      "arrival_gate": null,
+      "arrival_terminal": null,
+      "carrier_code": "SS",
+      "departure_airport": {
+        "iata_code": "ORY",
+        "icao_code": "LFPO",
+        "name": "Paris Orly Airport"
+      },
+      "departure_gate": null,
+      "departure_terminal": null,
+      "estimated_gate_arrival_datetime": null,
+      "estimated_gate_departure_datetime": null,
+      "estimated_runway_arrival_datetime": null,
+      "estimated_runway_departure_datetime": null,
+      "flight_number": "924",
+      "id": 40456,
+      "rescheduled_time_arrival_datetime": null,
+      "rescheduled_time_departure_datetime": null,
+      "sta": "2021-06-14T20:50:00Z",
+      "status": "SKD",
+      "std": "2021-06-14T12:00:00Z"
+    }
+  },
+  {
+    "status": {
+      "category": "completed"
+    },
+    "all_doors_closed_target_datetime": "2021-06-13T12:00:00Z",
+    "departure_flight": {
+      "actual_gate_arrival_datetime": null,
+      "actual_gate_departure_datetime": "2021-06-13T11:55:00Z",
+      "actual_runway_arrival_datetime": null,
+      "actual_runway_departure_datetime": null,
+      "aircraft": {
+        "tail_number": "FHZEN",
+        "name": "A330-300",
+        "manufacturer_name": "Airbus"
+      },
+      "arrival_airport": {
+        "iata_code": "FDF",
+        "icao_code": "TFFF",
+        "name": "Martinique Aime Cesaire International Airport"
+      },
+      "arrival_gate": null,
+      "arrival_terminal": null,
+      "carrier_code": "SS",
+      "departure_airport": {
+        "iata_code": "ORY",
+        "icao_code": "LFPO",
+        "name": "Paris Orly Airport"
+      },
+      "departure_gate": null,
+      "departure_terminal": null,
+      "estimated_gate_arrival_datetime": null,
+      "estimated_gate_departure_datetime": null,
+      "estimated_runway_arrival_datetime": null,
+      "estimated_runway_departure_datetime": null,
+      "flight_number": "924",
+      "id": 40456,
+      "rescheduled_time_arrival_datetime": null,
+      "rescheduled_time_departure_datetime": null,
+      "sta": "2021-06-14T20:50:00Z",
+      "status": "SKD",
+      "std": "2021-06-14T12:00:00Z"
+    }
+  }
+]

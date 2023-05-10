@@ -1,0 +1,6 @@
+{
+  "messages": {
+    "airport": "Select an airport to display turnaround for the selected day(s).",
+    "turnaround": "There is no turnaround scheduled for the selected day(s). You can choose another day by editing the date above."
+  }
+}

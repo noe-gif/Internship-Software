@@ -1,0 +1,16 @@
+export const FLIGHT_INFORMATION_LARGE = 3;
+export const FLIGHT_INFORMATION_SMALL = 2;
+export const FLIGHT_TIMING_CONTAINER_LARGE = 5;
+export const FLIGHT_TIMING_CONTAINER_SMALL = 4;
+export const FLIGHT_TIMING_LARGE = 6;
+export const FLIGHT_TIMING_SMALL = 12;
+export const TURNAROUND_ALERT_LARGE = 2;
+export const TURNAROUND_ALERT_SMALL = 4;
+export const TURNAROUND_INFORMATION_LARGE = 6;
+export const TURNAROUND_INFORMATION_SMALL = 8;
+
+export const FLIGHT_SMALL_ICON_MARGIN = '0';
+export const FLIGHT_LARGE_ICON_MARGIN = '1.6vmax';
+
+export const TURNAROUND_SMALL_ICON_SIZE = '1.4vmax';
+export const TURNAROUND_LARGE_ICON_SIZE = '1.6vmax';

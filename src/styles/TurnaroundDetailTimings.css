@@ -1,0 +1,134 @@
+.turnaroundDetailTimingsWrapperContent-large, .turnaroundDetailTimingsWrapperContent-small, .turnaroundDetailTimingsWrapperContent-large.splitView {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  height: 17%;
+
+}
+.turnaroundDetailTimingsWrapper-large, .turnaroundDetailTimingsWrapper-small {
+  width: 100%;
+  background-color: #E8ECF2;
+  height: 17%;
+  border-bottom: 0.05vmax solid #6C7B8A;
+  margin-bottom: 0.9vmax;
+}
+.turnaroundDetailTimingsWrapper-small, .turnaroundDetailTimingsWrapper-large.splitView {
+  height: 18%;
+}
+.turnaroundDetailTimingsWrapperContent-large.splitView, .turnaroundDetailTimingsWrapperContent-small {
+  height: 32%;
+}
+.turnaroundDetailTimingsBoxWrapper-large {
+  width: 33%;
+}
+.turnaroundDetailTimingsBoxWrapper-large.splitView, .turnaroundDetailTimingsBoxWrapper-small {
+  width: 50%;
+}
+.turnaroundDetailTimingsBox-large, .turnaroundDetailTimingsBox-large.splitView, .turnaroundDetailTimingsBox-small {
+  display: flex;
+  border: solid 0.08vmax rgba(27, 46, 75, 0.16);
+  border-radius: 0.1vmax;
+}
+.turnaroundDetailTimingsBoxLeft-large.splitView,
+.turnaroundDetailTimingsBoxRight-large.splitView,
+.turnaroundDetailTimingsBoxLeft-small,
+.turnaroundDetailTimingsBoxRight-small {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+.turnaroundDetailTimingsBoxLeft-large,
+.turnaroundDetailTimingsBoxRight-large {
+  width: 50%;
+}
+.turnaroundDetailTimingsCursor {
+  cursor: pointer;
+}
+.turnaroundDetailTimingsInfos-large, .turnaroundDetailTimingsInfos-small {
+  width: 34%;
+  padding: 0.2vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.turnaroundDetailTimingsInfos-large.splitView, .turnaroundDetailTimingsInfos-small {
+  width: 90%;
+  display: flex;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.turnaroundDetailTimingsCombined-large, .turnaroundDetailTimingsCombined-small, .turnaroundDetailTimingsCombined-large.splitView {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  height: 2vmax;
+}
+.turnaroundDetailTimingsPlaneCombined-large, .turnaroundDetailTimingsPlaneCombined-small, .turnaroundDetailTimingsPlaneCombined-large.splitView {
+  display: flex;
+  justify-content: left;
+  width: 37%;
+}
+.turnaroundDetailTimingsCombined-small, .turnaroundDetailTimingsCombined-large.splitView {
+  width: 100%;
+}
+.turnaroundDetailTimingsBoxText-large,
+.turnaroundDetailTimingsBoxText-small,
+.turnaroundDetailTimingsBoxTextSpecial-large,
+.turnaroundDetailTimingsBoxTextSpecial-small,
+.turnaroundDetailTimingsPLaneBoxText-large,
+.turnaroundDetailTimingsPlaneBoxTextSpecial-large {
+  width: 30%;
+  margin: auto 0;
+}
+.turnaroundDetailTimingsCombinedChange-small,
+.turnaroundDetailTimingsCombinedChange-large {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  margin: 9px 6px 9px 0;
+;
+}
+.turnaroundDetailTimingsBoxChangeText-small {
+  width: 38%;
+}
+.turnaroundDetailTimingsBoxChangeText-large {
+  font-weight: 400;
+  width: 36%;
+}
+.turnaroundDetailTimingsPLaneBoxText-large,
+.turnaroundDetailTimingsPlaneBoxText-small,
+.turnaroundDetailTimingsPlaneBoxTextSpecial-large,
+.turnaroundDetailTimingsPlaneBoxTextSpecial-small {
+  width: 50%;
+  justify-content: center;
+}
+.turnaroundDetailTimingsBoxText-large.splitView,
+.turnaroundDetailTimingsBoxText-small,
+.turnaroundDetailTimingsBoxTextSpecial-large.splitView,
+.turnaroundDetailTimingsBoxTextSpecial-small {
+  width: 40%;
+}
+.turnaroundDetailTimingsBoxTextSpecial-large, .turnaroundDetailTimingsBoxTextSpecial-small,
+.turnaroundDetailTimingsPlaneBoxTextSpecial-large, .turnaroundDetailTimingsPlaneBoxTextSpecial-small {
+  color: #50A1FF;
+}
+.turnaroundDetailTimingsBoxTextBold-large,
+.turnaroundDetailTimingsBoxTextSpecialBold-large,
+.turnaroundDetailTimingsPlaneBoxTextBold-large,
+.turnaroundDetailTimingsPlaneBoxTextSpecialBold-large {
+  margin: 0.5vmax;
+  width: 35%;
+}
+.turnaroundDetailTimingsBoxTextBold-small,
+.turnaroundDetailTimingsBoxTextSpecialBold-small,
+.turnaroundDetailTimingsBoxTextBold-large.splitView,
+.turnaroundDetailTimingsBoxTextSpecialBold-large.splitView {
+  margin: auto 0;
+  width: 35%;
+}
+.turnaroundDetailTimingsBoxTextSpecialBold-small, .turnaroundDetailTimingsBoxTextSpecialBold-large,
+.turnaroundDetailTimingsPlaneBoxTextSpecialBold-large {
+  color: #50A1FF;
+}

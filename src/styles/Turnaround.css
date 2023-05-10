@@ -1,0 +1,8 @@
+.turnaroundWrapper {
+  display: contents;
+  cursor: pointer;
+}
+.aircraftText {
+  font-size: 1vmax;
+  margin-left: 0.6vmax;
+}
