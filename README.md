@@ -1,5 +1,4 @@
 <h1 align="center">2022 Internship Web App project</h1></br>
-
 <p align="center">
 This project is a react web application connected to an API
 </p>
