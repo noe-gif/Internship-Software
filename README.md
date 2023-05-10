@@ -1,7 +1,7 @@
-<h1 align="center">React Web Ecommerce app</h1></br>
+<h1 align="center">2022 Internship Web App project</h1></br>
 
 <p align="center">
-🛒 This project is a react web-app using tailwind styling
+This project is a react web application connected to an API
 </p>
 <br>
 
@@ -9,18 +9,18 @@
 
 ## Stats
 
-![](https://img.shields.io/tokei/lines/noe-gif/Ecom-website-React?color=orange&label=Total%20Lines&logo=kotlin&logoColor=white)
-[![](https://img.shields.io/github/downloads/noe-gif/Ecom-website-React/total?color=orange&label=Total%20Downloads%20(GitHub)&logo=github&logoColor=white)](https://tooomm.github.io/github-release-stats/?username=noe-gif&repository=Dating-app-React-Native)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fnoe-gif%Ecom-website-React&count_bg=%239A3DC8&title_bg=%23555555&icon=tencentweibo.svg&icon_color=%23E7E7E7&title=Total+Visits&edge_flat=false)](https://hits.seeyoufarm.com)
-[![Release](https://img.shields.io/github/v/release/noe-gif/Ecom-website-React?color=52be80&label=Release)](https://github.com/noe-gif/Ecom-website-React/releases)
-![](https://img.shields.io/github/languages/count/noe-gif/Ecom-website-React?color=white&label=Languages)
-![](https://img.shields.io/github/license/noe-gif/Ecom-website-React?color=red&label=License)
+![](https://img.shields.io/tokei/lines/noe-gif/Internship-Software?color=orange&label=Total%20Lines&logo=kotlin&logoColor=white)
+[![](https://img.shields.io/github/downloads/noe-gif/Internship-Software/total?color=orange&label=Total%20Downloads%20(GitHub)&logo=github&logoColor=white)](https://tooomm.github.io/github-release-stats/?username=noe-gif&repository=Dating-app-React-Native)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fnoe-gif%Internship-Software&count_bg=%239A3DC8&title_bg=%23555555&icon=tencentweibo.svg&icon_color=%23E7E7E7&title=Total+Visits&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Release](https://img.shields.io/github/v/release/noe-gif/Internship-Software?color=52be80&label=Release)](https://github.com/noe-gif/Internship-Software/releases)
+![](https://img.shields.io/github/languages/count/noe-gif/Internship-Software?color=white&label=Languages)
+![](https://img.shields.io/github/license/noe-gif/Internship-Software?color=red&label=License)
 [![Crowdin](https://badges.crowdin.net/inure/localized.svg)](https://crowdin.com/project/inure)
 
-# Ecommerce app
+# Project
 
-The app was made in only 1 hour using tailwind css and enhanced with AI production to be able to output a minimal project in the shortest time as possible.
-Which in this case was 50 minutes.
+This repository main objective is to share my code syntax and structure for interested people.
+Furthermore This project uses the stores Redux technology to transfer the data through the app as well as Redux-Saga to asynchronously fetch the API's data.
 
 <p align="center">
 <img src="assets/lv_0_20230502125528.gif" alt="androiddevnotes logo"></img>
@@ -32,7 +32,7 @@ Follow these instructions to build and run the project
 
 ### Setup React Web App
 
-- Clone this repository using `git clone https://github.com/noe-gif/Ecom-website-React.git`.
+- Clone this repository using `git clone https://github.com/noe-gif/Internship-Software.git`.
 - `cd` into `<project-name>`.
 - `npm i` to get all the dependencies.
 - Run
@@ -42,7 +42,7 @@ Follow these instructions to build and run the project
 ## Project Structure
 
 ```bash
-Ecom-website-react/
+Internship-Software/
 ├── node_modules/     # This folder contains all the dependencies that the project requires, including React itself.
 | └── ...             # all the dependencies listed
 ├── public/           # This folder contains the public assets such as index.html file
