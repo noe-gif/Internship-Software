@@ -47,18 +47,36 @@ Internship-Software/
 
 ## Dependencies
 
-| Name                   | Description                              | Version   |
-| ---------------------- | ---------------------------------------- | --------- |
-| [@headlessui/react]    | Accessible UI components library         | ^1.7.14   |
-| [@heroicons/react]     | Customizable SVG icons library           | ^2.0.17   |
-| [@jest-dom]            | Custom matchers for Jest                 | ^5.16.5   |
-| [@test/react]          | Testing utilities for React              | ^13.4.0   |
-| [@testing/user-event]  | User events simulation for testing       | ^13.5.0   |
-| [react]                | JavaScript library for building UIs      | ^18.2.0   |
-| [react-dom]            | React package for working with the DOM   | ^18.2.0   |
-| [react-scripts]        | Configuration and scripts for React app  | 5.0.1     |
-| [tailwindcss]          | CSS framework for building UIs           | ^3.3.2    |
-| [web-vitals]           | Library for tracking web vitals          | ^2.1.4    |
+| Name                                  | Description                                     | Version         |
+| ------------------------------------- | ----------------------------------------------- | --------------- |
+| [@babel/core]                         | JavaScript compiler                             | 7.16.7          |
+| [@babel/preset-env]                   | Babel preset for compiling modern JavaScript    | 7.16.8          |
+| [@emotion/react]                      | CSS-in-JS library for React                     | 11.7.1          |
+| [@emotion/styled]                     | CSS-in-JS library for React                     | 11.6.0          |
+| [@fortawesome/fontawesome-svg-core]   | Fontawesome SVG icons library (core)            | 1.2.36          |
+| [@fortawesome/free-brands-svg-icons]  | Fontawesome SVG icons library (brands)          | 5.15.4          |
+| [@fortawesome/free-regular-svg-icons] | Fontawesome SVG icons library (regular)         | 5.15.4          |
+| [@fortawesome/free-solid-svg-icons]   | Fontawesome SVG icons library (solid)           | 5.15.4          |
+| [@fortawesome/react-fontawesome]      | React wrapper for Fontawesome SVG icons         | 0.1.16          |
+| [@mui/icons-material]                 | Material-UI icon library for React              | 5.2.5           |
+| [@mui/lab]                            | Material-UI lab components for React            | 5.0.0-alpha.69  |
+| [@mui/material]                       | Material-UI components library for React        | 5.2.8           |
+| [@mui/styles]                         | Material-UI styling library for React           | 5.2.3           |
+| [axios]                               | Promise-based HTTP client for the browser       | 0.24.0          |
+| [babel-core]                          | JavaScript compiler (bridge)                    | 7.0.0-bridge.0  |
+| [date-fns]                            | Date utility library for JavaScript             | 2.28.0          |
+| [react]                               | JavaScript library for building UIs             | 17.0.2          |
+| [react-dom]                           | React package for working with the DOM          | 17.0.2          |
+| [react-redux]                         | Predictable state container for React apps      | 7.2.6           |
+| [react-scripts]                       | Configuration and scripts for React app         | 5.0.0           |
+| [redux]                               | Predictable state container for JavaScript      | 4.1.2           |
+| [redux-saga]                          | Library for managing side effects in Redux      | 1.1.3           |
+| [universal-cookie]                    | Lightweight library for handling cookies        | 4.0.4           |
+| [web-vitals]                          | Library for tracking web vitals                 | 2.1.3           |
+
+
+
+
 
 ## License
 
@@ -68,16 +86,29 @@ Internship-Software/
 the [GPL v3](https://opensource.org/licenses/gpl-3.0.html)
 license, see the [LICENSE](./LICENSE) file in the project root for the full license text.
 
-[@headlessui/react]: https://headlessui.dev/react/
-[@heroicons/react]: https://heroicons.com/react/
-[@jest-dom]: https://testing-library.com/docs/ecosystem-jest-dom/
-[@test/react]: https://testing-library.com/docs/react-testing-library/intro/
-[@testing/user-event]: https://testing-library.com/docs/ecosystem-user-event/
-[react]: https://reactjs.org/docs/getting-started.html
-[react-dom]: https://reactjs.org/docs/react-dom.html
-[react-scripts]: https://create-react-app.dev/docs/getting-started/
-[tailwindcss]: https://tailwindcss.com/docs
+[@babel/core]:https://babeljs.io/docs/core-packages/babel-core/
+[@babel/preset-env]:https://babeljs.io/docs/babel-preset-env
+[@emotion/react]:https://emotion.sh/docs/react
+[@emotion/styled]:https://emotion.sh/docs/styled
+[@fortawesome/fontawesome-svg-core]:https://fontawesome.com/how-to-use/svg-core-packages
+[@fortawesome/free-brands-svg-icons]:https://fontawesome.com/icons?d=gallery&p=2&s=brands
+[@fortawesome/free-regular-svg-icons]:https://fontawesome.com/icons?d=gallery&p=2&s=regular
+[@fortawesome/free-solid-svg-icons]:https://fontawesome.com/icons?d=gallery&p=2&s=solid
+[@fortawesome/react-fontawesome]:https://fontawesome.com/v5.15/how-to-use/react
+[@mui/icons-material]:https://mui.com/components/material-icons/
+[@mui/lab]:https://mui.com/components/about-the-lab/
+[@mui/material]:https://mui.com/components/material-ui-core/
+[@mui/styles]:https://mui.com/styles/basics/
+[axios]:https://axios-http.com/docs/intro
+[babel-core]:https://babeljs.io/docs/core-packages/babel-core/
+[date-fns]:https://date-fns.org/docs/Getting-Started
+[react]:https://reactjs.org/docs/getting-started.html
+[react-dom]:https://reactjs.org/docs/react-dom.html
+[react-redux]:https://react-redux.js.org/introduction/getting-started
+[react-scripts]:https://create-react-app.dev/docs/getting-started/
+[redux]:https://redux.js.org/introduction/getting-started
+[redux-saga]:https://redux-saga.js.org/docs/introduction/BeginnerTutorial.html
+[universal-cookie]:https://github.com/reactivestack/cookies/tree/master/packages/universal-cookie
 [web-vitals]: https://web.dev/vitals/
-
 
 [tutorial]: assets/lv_0_20230502125528.gif
