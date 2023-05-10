@@ -2,7 +2,6 @@
 <p align="center">
 This project is a react web application connected to an API
 </p>
-<br>
 
 # Project
 
